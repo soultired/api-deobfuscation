@@ -1,0 +1,18 @@
+{
+  "name": "jsjiami-deobf-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API gỡ obfuscate jsjiami (v1 / v2 / v3), gọi từ trang Obfuscate JavaScript",
+  "main": "api/deobfuscate.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@babel/generator": "^7.28.5",
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5",
+    "@babel/types": "^7.28.5"
+  }
+}
